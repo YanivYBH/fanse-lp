@@ -9,8 +9,6 @@ import SelectMenu from "@/components/home/SelectMenu";
 import ToggleSwitch from "@/components/home/ToggleSwitch";
 import { AlignCenter } from "lucide-react";
 
-
-
 export default function Home() {
   // const { stargazers_count: stars } = await fetch(
   //   "https://api.github.com/repos/steven-tey/precedent",
@@ -30,7 +28,6 @@ export default function Home() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [paused, setPaused] = useState(true);
   const { width } = useWindowSize();
-  
 
   const [formData, setFormData] = useState({
     handle: "",
@@ -118,7 +115,7 @@ export default function Home() {
                   label="your fanse wish username"
                 />
                 <InputField
-                  value={formData.email} 
+                  value={formData.email}
                   handler={(e) => {
                     setFormData((prev) => ({
                       ...prev,
@@ -167,18 +164,19 @@ export default function Home() {
                     height={24}
                     alt="thunder-ico"
                   />{" "}
-                  Join Us Now 
+                  Join Us Now
                 </button>
-                <p style={{ minWidth:370 }} className=" self-center mt-1 flex items-center justify-center gap-1 border-t border-solid border-paleGray pt-1">
-                   
-                </p>
+                <p
+                  style={{ minWidth: 370 }}
+                  className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
+                ></p>
                 <a
                   href="https://test.connect.scrile.com/login"
                   target="blank"
-                  className="flex h-[40px] w-full items-center justify-center gap-3 rounded-full transition-all duration-100 font-bold text-base rounded-full border border-black bg-black p-1.5 px-8 text-sm text-white transition-all hover:bg-white hover:text-black"
+                  className="flex h-[40px] w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black"
                 >
                   {" "}
-                  already a member? 
+                  already a member?
                 </a>
               </form>
             </div>

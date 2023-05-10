@@ -49,7 +49,6 @@ export default async function OG() {
     {
       width: 1200,
       height: 630,
-
     },
   );
 }
