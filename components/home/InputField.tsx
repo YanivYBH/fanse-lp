@@ -14,8 +14,8 @@ const InputField = ({ label, value, handler, ico, note }: Props) => {
     <>
       <div className="flex h-[60px] w-full items-center justify-start gap-[20px] overflow-hidden rounded-2xl border-2 border-solid border-offWhite bg-offWhite px-2 transition-all duration-300 focus-within:border-black focus-within:bg-white hover:border-lightGray focus-within:hover:border-black sm:px-4">
         {ico && (
-          <div className="w-[40px] min-w-[40px]">
-            <Image src={ico} width={40} height={40} alt="ico" />
+          <div className="w-[30px] min-w-[30px]">
+            <Image src={ico} width={30} height={30} alt="ico" />
           </div>
         )}
         <div className="relative flex  h-full w-full">

@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Fanse - Its more than just a platform";
+export const alt = "Precedent - Building blocks for your Next.js project";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -27,7 +27,7 @@ export default async function OG() {
       >
         <img
           src={new URL("../public/logo.png", import.meta.url).toString()}
-          alt="Fanse Logo"
+          alt="Precedent Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
@@ -49,6 +49,7 @@ export default async function OG() {
     {
       width: 1200,
       height: 630,
+
     },
   );
 }

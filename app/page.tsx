@@ -7,7 +7,6 @@ import Image from "next/image";
 import InputField from "@/components/home/InputField";
 import SelectMenu from "@/components/home/SelectMenu";
 import ToggleSwitch from "@/components/home/ToggleSwitch";
-import { AlignCenter } from "lucide-react";
 
 export default function Home() {
   // const { stargazers_count: stars } = await fetch(
@@ -28,7 +27,6 @@ export default function Home() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [paused, setPaused] = useState(true);
   const { width } = useWindowSize();
-
   const [formData, setFormData] = useState({
     handle: "",
     email: "",
@@ -60,7 +58,7 @@ export default function Home() {
               ></video>
               <button
                 onClick={toggleVideo}
-                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full bg-primary ${
+                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full border border-solid border-white bg-primary ${
                   !paused
                     ? "opacity-0 transition-all duration-500 group-hover:opacity-100"
                     : ""
@@ -87,10 +85,10 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center justify-start gap-2 py-4 text-center">
                 <p className="text-sm font-bold text-black">
-                  - build your fanbase -
+                  - build your hub -
                 </p>
                 <p className="text-sm font-semibold text-black">
-                  sign up for one month free from fees
+                  sign up for one month free
                 </p>
               </div>
               <form className="flex w-full flex-col items-start justify-start gap-4 pb-4 ">
@@ -111,8 +109,8 @@ export default function Home() {
                       }
                     });
                   }}
-                  ico="/fanse.svg"
-                  label="your fanse wish username"
+                  ico="/insta.svg"
+                  label="your instagram handle"
                 />
                 <InputField
                   value={formData.email}
@@ -133,7 +131,7 @@ export default function Home() {
                   }
                   options={["creator", "brand", "agency/manager"]}
                 />
-                {/* <ToggleSwitch
+                <ToggleSwitch
                   handler={() =>
                     setFormData((prev) => ({
                       ...prev,
@@ -142,42 +140,30 @@ export default function Home() {
                   }
                   label="i want to receive exclusive updates and content from hoo.be"
                   value={formData.recieve}
-                /> */}
+                />
                 <p className="self-center text-center text-xs font-semibold text-[#aaa]">
                   working with an agency or group of talent? <br /> email us at{" "}
                   <a
-                    href="mailto:agency@fanse.io"
+                    href="mailto:talent@hoo.be"
                     target="blank"
                     className="text-primary underline"
                   >
-                    agency@fanse.io
+                    talent@hoo.be
                   </a>
                 </p>
                 <button
                   type="submit"
                   onSubmit={(e) => e.preventDefault()}
-                  className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#0da4db]"
+                  className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#1096a5]"
                 >
                   <Image
-                    src="/verify.svg"
+                    src="/thunder.svg"
                     width={24}
                     height={24}
                     alt="thunder-ico"
                   />{" "}
-                  Join Us Now
+                  apply now
                 </button>
-                <p
-                  style={{ minWidth: 370 }}
-                  className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
-                ></p>
-                <a
-                  href="https://test.connect.scrile.com/login"
-                  target="blank"
-                  className="flex h-[40px] w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black"
-                >
-                  {" "}
-                  already a member?
-                </a>
               </form>
             </div>
           </section>
