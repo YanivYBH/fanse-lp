@@ -35,35 +35,7 @@ export default function Home() {
       <div className="relative z-20 flex  w-full flex-col items-center justify-start">
         <div className="flex w-[90%] max-w-[900px] flex-col items-center justify-start">
           <section className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row ">
-            <div className="group relative isolate w-full  max-w-[372px] overflow-hidden rounded-[2rem]">
-              <video
-                poster="/thumbnail.png"
-                ref={videoRef}
-                onClick={toggleVideo}
-                src="/video.mp4"
-                playsInline
-                className="cursor-pointer"
-              ></video>
-              <button
-                onClick={toggleVideo}
-                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full bg-primary ${
-                  !paused
-                    ? "opacity-0 transition-all duration-500 group-hover:opacity-100"
-                    : ""
-                }`}
-              >
-                {paused ? (
-                  <Image width={30} height={30} src="/play-ico.svg" alt="ico" />
-                ) : (
-                  <Image
-                    width={30}
-                    height={30}
-                    src="/pause-ico.svg"
-                    alt="ico"
-                  />
-                )}
-              </button>
-            </div>
+            
             <div className="flex w-full max-w-[430px] flex-col items-center justify-start rounded-[32px] border border-solid border-paleGray px-3 sm:px-6">
               <div className="flex flex-col items-center justify-center gap-2 border-b border-solid border-paleGray py-4 text-center">
                 <p className="text-xl sm:text-[28px]">🚀</p>
@@ -153,7 +125,7 @@ export default function Home() {
                   Join Us Now
                 </button>
                 <p
-                  style={{ minWidth: 370 }}
+                  style={{ minWidth: 300 }}
                   className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
                 ></p>
                 <a
@@ -165,6 +137,36 @@ export default function Home() {
                   already a member?
                 </a>
               </form>
+            </div>
+
+            <div className="group relative isolate w-full  max-w-[372px] overflow-hidden rounded-[2rem]">
+              <video
+                poster="/thumbnail.png"
+                ref={videoRef}
+                onClick={toggleVideo}
+                src="/video.mp4"
+                playsInline
+                className="cursor-pointer"
+              ></video>
+              <button
+                onClick={toggleVideo}
+                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full bg-primary ${
+                  !paused
+                    ? "opacity-0 transition-all duration-500 group-hover:opacity-100"
+                    : ""
+                }`}
+              >
+                {paused ? (
+                  <Image width={30} height={30} src="/play-ico.svg" alt="ico" />
+                ) : (
+                  <Image
+                    width={30}
+                    height={30}
+                    src="/pause-ico.svg"
+                    alt="ico"
+                  />
+                )}
+              </button>
             </div>
           </section>
           {width > 1024 ? (
