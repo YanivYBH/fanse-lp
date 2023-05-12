@@ -117,13 +117,13 @@ type Props = {
 // };
 const CaseStudiesBox = ({ tag, name, poster }: Props) => {
   return (
-    <div className="flex w-full max-w-[250px] flex-col items-start  justify-start overflow-hidden rounded-xl bg-white shadow-lg  md:max-w-none">
-      <div className="group relative h-[400px] w-full bg-lightShadow">
+    <div className="flex w-full max-w-[350px] flex-col items-start  justify-start overflow-hidden rounded-xl bg-white shadow-lg  md:max-w-none">
+      <div className="group relative h-[350px] w-full bg-lightShadow">
         <Image src={poster} alt={name} fill />
       </div>
       <div className="flex flex-col items-start justify-start px-6 py-3 ">
-        <h4 className="text-lg font-bold text-black">{tag}</h4>
-        <p className="text-lg text-[#333]">{name}</p>
+        <h4 style={{ fontSize: 13 }}className="font-bold text-black">{tag}</h4>
+        <p  style={{ fontSize: 12 }} className="text-[#333]">{name}</p>
       </div>
     </div>
   );

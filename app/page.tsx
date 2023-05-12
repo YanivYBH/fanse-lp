@@ -46,8 +46,8 @@ export default function Home() {
   return (
     <>
       <div className="relative z-20 flex  w-full flex-col items-center justify-start">
-        <div className="flex w-[90%] max-w-[900px] flex-col items-center justify-start">
-          <section className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row ">
+        <div className="flex w-[90%] max-w-[1080px] flex-col items-center justify-start">
+          <section style={{ placeContent: "center" }} className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row ">
             <div className="group relative isolate w-full  max-w-[372px] overflow-hidden rounded-[2rem]">
               <video
                 poster="/thumbnail.png"
@@ -86,10 +86,10 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center justify-start gap-2 py-4 text-center">
                 <p className="text-sm font-bold text-black">
-                  - build your hub -
+                  - build your fanbase -
                 </p>
                 <p className="text-sm font-semibold text-black">
-                  sign up for one month free
+                  sign up for one month free from fees
                 </p>
               </div>
               <form className="flex w-full flex-col items-start justify-start gap-4 pb-4 ">
@@ -110,8 +110,8 @@ export default function Home() {
                       }
                     });
                   }}
-                  ico="/insta.svg"
-                  label="your instagram handle"
+                  ico="/fanse.svg"
+                  label="your fanse wish username"
                 />
                 <InputField
                   value={formData.email}
@@ -132,7 +132,7 @@ export default function Home() {
                   }
                   options={["creator", "brand", "agency/manager"]}
                 />
-                <ToggleSwitch
+                {/* <ToggleSwitch
                   handler={() =>
                     setFormData((prev) => ({
                       ...prev,
@@ -141,30 +141,42 @@ export default function Home() {
                   }
                   label="i want to receive exclusive updates and content from hoo.be"
                   value={formData.recieve}
-                />
+                /> */}
                 <p className="self-center text-center text-xs font-semibold text-[#aaa]">
                   working with an agency or group of talent? <br /> email us at{" "}
                   <a
-                    href="mailto:talent@hoo.be"
+                    href="mailto:agency@fanse.io"
                     target="blank"
                     className="text-primary underline"
                   >
-                    talent@hoo.be
+                    agency@fanse.io
                   </a>
                 </p>
                 <button
                   type="submit"
                   onSubmit={(e) => e.preventDefault()}
-                  className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#1096a5]"
+                  className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#0da4db]"
                 >
                   <Image
-                    src="/thunder.svg"
+                    src="/verify.svg"
                     width={24}
                     height={24}
                     alt="thunder-ico"
                   />{" "}
-                  apply now
+                  Join Us Now
                 </button>
+                <p
+                  style={{ minWidth: 300 }}
+                  className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
+                ></p>
+                <a
+                  href="https://test.connect.scrile.com/login"
+                  target="blank"
+                  className="flex h-[40px] w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black"
+                >
+                  {" "}
+                  already a member?
+                </a>
               </form>
             </div>
           </section>
@@ -224,14 +236,46 @@ export default function Home() {
                     perPage: 2,
                   },
                   500: {
-                    perPage: 1,
+                    perPage: 2,
                   },
                 },
               }}
             >
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/thumbnail.png"
+                  poster="/card (4).webp"
+                  video="video.mp4"
+                  name="Oops…🤭"
+                  tag="@GorigeCrone"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/card (2).webp"
+                  video="video.mp4"
+                  name="naughty stuff 🤫"
+                  tag="@LoxDayz"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/card (3).webp"
+                  video="video.mp4"
+                  name="Lani Nani"
+                  tag="@itslaninani"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/card (5).webp"
+                  video="video.mp4"
+                  name="Come see my big🍒"
+                  tag="@Jessthebeauty"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/card (2).webp"
                   video="video.mp4"
                   name="Newton Baby"
                   tag="@tayandthetwins"
@@ -239,7 +283,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/thumbnail.png"
+                  poster="/card (3).webp"
                   video="video.mp4"
                   name="Newton Baby"
                   tag="@tayandthetwins"
@@ -247,39 +291,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/thumbnail.png"
-                  video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <CaseStudiesBox
-                  poster="/thumbnail.png"
-                  video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <CaseStudiesBox
-                  poster="/thumbnail.png"
-                  video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <CaseStudiesBox
-                  poster="/thumbnail.png"
-                  video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <CaseStudiesBox
-                  poster="/thumbnail.png"
+                  poster="/card (1).webp"
                   video="video.mp4"
                   name="Newton Baby"
                   tag="@tayandthetwins"
@@ -287,6 +299,7 @@ export default function Home() {
               </SplideSlide>
             </Splide>
           </section>
+          
           <section className="mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
             <div className="flex flex-col items-center justify-start gap-3 text-center lg:items-start lg:text-left">
               <h2 className="text-[28px] font-bold text-black">
