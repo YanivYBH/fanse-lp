@@ -194,6 +194,7 @@ export default function Home() {
                   perPage: 1,
                   perMove: 1,
                   drag: true,
+                  gap: "15px",
                   arrows: false,
                   pagination: true,
                 }}
@@ -221,7 +222,7 @@ export default function Home() {
             <Splide
               options={{
                 rewind: true,
-                width: "100%",
+                width: "160%",
                 pagination: false,
                 arrows: true,
                 perPage: 4,
@@ -231,12 +232,15 @@ export default function Home() {
                 breakpoints: {
                   920: {
                     perPage: 3,
+                
                   },
                   725: {
-                    perPage: 2,
+                    perPage: 1,
+                 
                   },
                   500: {
-                    perPage: 2,
+                    perPage: 1,
+                  
                   },
                 },
               }}
@@ -300,7 +304,7 @@ export default function Home() {
             </Splide>
           </section>
           
-          <section className="mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
+          {/* <section className="mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
             <div className="flex flex-col items-center justify-start gap-3 text-center lg:items-start lg:text-left">
               <h2 className="text-[28px] font-bold text-black">
                 Let{"'"}s get started!
@@ -368,7 +372,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </>
