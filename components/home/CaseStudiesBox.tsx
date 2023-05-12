@@ -119,7 +119,7 @@ const CaseStudiesBox = ({ tag, name, poster }: Props) => {
   return (
     <div className="flex w-full max-w-[350px] flex-col items-start  justify-start overflow-hidden rounded-xl bg-white shadow-lg  md:max-w-none">
       <div className="group relative h-[400px] w-full bg-lightShadow">
-        <Image src={poster} alt={name} fill />
+        <Image style={{ objectFit: "cover" }}  src={poster} alt={name} fill />
       </div>
       <div className="flex flex-col items-start justify-start px-6 py-3 ">
         <h4 style={{ fontSize: 13 }}className="font-bold text-black">{tag}</h4>

@@ -222,7 +222,7 @@ export default function Home() {
             <Splide
               options={{
                 rewind: true,
-                width: "160%",
+                width: "100%",
                 pagination: false,
                 arrows: true,
                 perPage: 4,
@@ -293,14 +293,7 @@ export default function Home() {
                   tag="@tayandthetwins"
                 />
               </SplideSlide>
-              <SplideSlide>
-                <CaseStudiesBox
-                  poster="/card (1).webp"
-                  video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
-                />
-              </SplideSlide>
+              
             </Splide>
           </section>
           
