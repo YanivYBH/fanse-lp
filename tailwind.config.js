@@ -10,9 +10,14 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundImage: {
+        lightShadow:
+          "linear-gradient(180deg,transparent,rgba(0,0,0,.5) 98.96%)",
+      },
       fontFamily: {
         sans: ["var(--poppins)", ...defaultTheme.fontFamily.sans],
       },
+
       colors: {
         primary: "#78c4cb",
         paleGray: "#ededed",
