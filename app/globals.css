@@ -22,3 +22,13 @@
     @apply right-2 translate-x-0 md:right-0 md:translate-x-[100%] lg:translate-x-[120%];
   }
 }
+
+.h-case {
+  height: 400px;
+}
+
+@media only screen and (max-width: 500px) {
+  .h-case {
+    height: 500px;
+  }
+}
