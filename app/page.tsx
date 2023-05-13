@@ -297,7 +297,7 @@ export default function Home() {
             </Splide>
           </section>
           
-          <section className="mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
+          <section className="w-[90%]  mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
             <div className="flex flex-col items-center justify-start gap-3 text-center lg:items-start lg:text-left">
               <h2 className="text-[28px] font-bold text-black">
                 Let{"'"}s get started!
