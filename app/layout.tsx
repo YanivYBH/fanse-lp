@@ -7,17 +7,17 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "Fanse - The Future of Adult Content Creators",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
+    "Fanse is a revolutionary platform that empowers Adult Creators to create the content they love.",
   twitter: {
     card: "summary_large_image",
-    title: "Precedent - Building blocks for your Next.js project",
+    title: "Fanse - The Future of Adult Content Creators",
     description:
-      "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-    creator: "@steventey",
+      "Fanse is a revolutionary platform that empowers Adult Creators to create the content they love.",
+    creator: "@fanseplatform",
   },
-  metadataBase: new URL("https://precedent.dev"),
+  metadataBase: new URL("https://fanse.io"),
   themeColor: "#FFF",
 };
 
