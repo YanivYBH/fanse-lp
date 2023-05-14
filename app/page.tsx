@@ -297,8 +297,8 @@ export default function Home() {
             </Splide>
           </section>
           
-          <section className="w-[89%]  mt-14 flex w-full flex-col items-center justify-between  gap-10 md:mt-32 lg:flex-row">
-            <div className="flex flex-col items-center justify-start gap-3 text-center lg:items-start lg:text-left">
+          <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
+            {/* <div className="flex flex-col items-center justify-start gap-3 text-center lg:items-start lg:text-left">
               <h2 className="text-[28px] font-bold text-black">
                 Let{"'"}s get started!
               </h2>
@@ -320,7 +320,24 @@ export default function Home() {
                 </p>
               </div>
               
+            </div> */}
+            <div  className="center-buttons " >
+            <div className="flex flex-col items-center justify-start text-center">
+            <p  className="text-base font-normal text-black gap-10">
+                what are you waiting ?
+              </p>
+              <h2 style={{ marginBottom: 40 }}  className="text-[38px] font-bold text-black">Join thousands of creators on fanvue now</h2>
             </div>
+            <a
+                  href="https://test.connect.scrile.com/login"
+                  target="blank"
+                  style={{ maxWidth: 400 , fontSize: 17}}
+                  className="flex h-[50px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
+                >
+                  {" "}
+                  Join fanse
+                </a>
+                </div>
           </section>
         </div>
       </div>
