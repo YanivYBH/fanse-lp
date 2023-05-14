@@ -324,18 +324,18 @@ export default function Home() {
             <div  className="center-buttons " >
             <div className="flex flex-col items-center justify-start text-center">
             <p  className="text-base font-normal text-black gap-10">
-                what are you waiting ?
+                what are you waiting for ?
               </p>
-              <h2 style={{ marginBottom: 40 }}  className="text-[38px] font-bold text-black">Join thousands of creators on fanvue now</h2>
+              <h2 style={{ marginBottom: 40 }}  className="text-[34px] font-bold text-black">Join thousands of adult creators on fanse now!</h2>
             </div>
             <a
                   href="https://test.connect.scrile.com/login"
                   target="blank"
-                  style={{ maxWidth: 400 , fontSize: 17}}
+                  style={{ maxWidth: 350 , fontSize: 17}}
                   className="flex h-[50px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
                 >
                   {" "}
-                  Join fanse
+                  Join fanse now
                 </a>
                 </div>
           </section>
