@@ -182,9 +182,9 @@ export default function Home() {
           </section>
           {width > 1024 ? (
             <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
-              <Image src="/img1.webp" width={277} height={400} alt="img1" />
-              <Image src="/img2.webp" width={277} height={400} alt="img2" />
-              <Image src="/img3.webp" width={277} height={400} alt="img3" />
+              <Image style={{ borderRadius: 15 }} src="/11.svg" width={277} height={400} alt="img1" />
+              <Image  style={{ borderRadius: 15 }} src="/2.svg" width={277} height={400} alt="img2" />
+              <Image  style={{ borderRadius: 15 }} src="/3.svg" width={277} height={400} alt="img3" />
             </section>
           ) : (
             <section className="mt-10 w-full border-t border-solid border-paleGray pt-10">
@@ -200,13 +200,13 @@ export default function Home() {
                 }}
               >
                 <SplideSlide>
-                  <Image src="/img1.webp" width={477} height={400} alt="img1" />
+                  <Image  style={{ borderRadius: 15 }} src="/11.svg" width={477} height={400} alt="img1" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src="/img2.webp" width={477} height={400} alt="img2" />
+                  <Image  style={{ borderRadius: 15 }} src="/2.svg" width={477} height={400} alt="img2" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image src="/img3.webp" width={477} height={400} alt="img3" />
+                  <Image  style={{ borderRadius: 15 }} src="/3.svg" width={477} height={400} alt="img3" />
                 </SplideSlide>
               </Splide>
             </section>
