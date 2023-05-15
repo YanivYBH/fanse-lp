@@ -247,7 +247,7 @@ export default function Home() {
             >
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (4).webp"
+                  poster="/media (2).jpg"
                   video="video.mp4"
                   name="Oops…🤭"
                   tag="@GorigeCrone"
@@ -255,7 +255,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (2).webp"
+                  poster="/media (3).jpg"
                   video="video.mp4"
                   name="naughty stuff 🤫"
                   tag="@LoxDayz"
@@ -263,7 +263,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (3).webp"
+                  poster="/media.jpg"
                   video="video.mp4"
                   name="Lani Nani"
                   tag="@itslaninani"
@@ -271,7 +271,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (5).webp"
+                  poster="/media2.JPG"
                   video="video.mp4"
                   name="Come see my big🍒"
                   tag="@Jessthebeauty"
@@ -279,7 +279,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (2).webp"
+                  poster="/media (4).jpg"
                   video="video.mp4"
                   name="Newton Baby"
                   tag="@tayandthetwins"
@@ -287,7 +287,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/card (3).webp"
+                  poster="/media (3).jpg"
                   video="video.mp4"
                   name="Newton Baby"
                   tag="@tayandthetwins"
