@@ -7,6 +7,7 @@ export default function Footer() {
         <p className="sm:inline-block hidden">|</p>
         <a href="#">Privacy Policy</a>
         <p className="sm:inline-block hidden">|</p>
+        <a href="/faq">FAQs</a>
       </div>
     </div>
   );

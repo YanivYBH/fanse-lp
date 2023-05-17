@@ -79,21 +79,21 @@ export default function Home() {
             </div>
             <div className="flex w-full max-w-[430px] flex-col items-center justify-start rounded-[32px] border border-solid border-paleGray px-3 sm:px-6">
               <div className="flex flex-col items-center justify-center gap-2 border-b border-solid border-paleGray py-4 text-center">
-                <p className="text-xl sm:text-[28px]">🚀</p>
-                <h3 className="text-xl font-bold leading-[1.3] text-black sm:text-[28px]">
-                  become a member & <br /> launch your creator hub.
+                <p className="text-xl sm:text-[28px]"><Image src={"/fanse.svg"} width={60} height={60} alt="ico" /></p>
+                <h3 className="text-xl font-bold leading-[1.3] text-black sm:text-[24px]">
+                  become a member & <br /> launch your creator profile.
                 </h3>
               </div>
               <div className="flex flex-col items-center justify-start gap-2 py-4 text-center">
                 <p className="text-sm font-bold text-black">
-                  - build your fanbase -
+                  - build your loyal fanbase -
                 </p>
                 <p className="text-sm font-semibold text-black">
-                  sign up for one month free from fees
+                  Join for free & start monetizing your content!
                 </p>
               </div>
               <form className="flex w-full flex-col items-start justify-start gap-4 pb-4 ">
-                <InputField
+                {/* <InputField
                   value={formData.handle}
                   handler={(e) => {
                     setFormData((prev) => {
@@ -123,7 +123,7 @@ export default function Home() {
                   }}
                   note="email is private and used to verify new users"
                   label="add email"
-                />
+                /> */}
                 <SelectMenu
                   value={formData.type}
                   label="user type"
@@ -143,7 +143,7 @@ export default function Home() {
                   value={formData.recieve}
                 /> */}
                 <p className="self-center text-center text-xs font-semibold text-[#aaa]">
-                  working with an agency or group of talent? <br /> email us at{" "}
+                  For support & futher inquiries <br /> email us at{" "}
                   <a
                     href="mailto:agency@fanse.io"
                     target="blank"
@@ -163,7 +163,7 @@ export default function Home() {
                     height={24}
                     alt="thunder-ico"
                   />{" "}
-                  Join Us Now
+                  Register Now
                 </button>
                 <p
                   style={{ minWidth: 300 }}
@@ -182,9 +182,9 @@ export default function Home() {
           </section>
           {width > 1024 ? (
             <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
-              <Image style={{ borderRadius: 15 }} src="/11.svg" width={277} height={400} alt="img1" />
-              <Image  style={{ borderRadius: 15 }} src="/2.svg" width={277} height={400} alt="img2" />
-              <Image  style={{ borderRadius: 15 }} src="/3.svg" width={277} height={400} alt="img3" />
+              <Image style={{ borderRadius: 15 }} src="/111.svg" width={300} height={400} alt="img1" />
+              <Image  style={{ borderRadius: 15 }} src="/22.svg" width={300} height={400} alt="img2" />
+              <Image  style={{ borderRadius: 15 }} src="/33.svg" width={300} height={400} alt="img3" />
             </section>
           ) : (
             <section className="mt-10 w-full border-t border-solid border-paleGray pt-10">
@@ -200,13 +200,13 @@ export default function Home() {
                 }}
               >
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/11.svg" width={477} height={400} alt="img1" />
+                  <Image  style={{ borderRadius: 15 }} src="/111.svg" width={477} height={400} alt="img1" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/2.svg" width={477} height={400} alt="img2" />
+                  <Image  style={{ borderRadius: 15 }} src="/22.svg" width={477} height={400} alt="img2" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/3.svg" width={477} height={400} alt="img3" />
+                  <Image  style={{ borderRadius: 15 }} src="/33.svg" width={477} height={400} alt="img3" />
                 </SplideSlide>
               </Splide>
             </section>
@@ -336,6 +336,16 @@ export default function Home() {
                 >
                   {" "}
                   Join fanse now
+                </a>
+              
+                <a
+                  href="/faq"
+                  target="blank"
+                  style={{ marginTop:20, maxWidth: 150 , fontSize: 14 }}
+                  className="flex h-[40px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
+                >
+                  {" "}
+                  FAQ
                 </a>
                 </div>
           </section>

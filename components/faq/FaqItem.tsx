@@ -11,6 +11,7 @@ type Props = {
 const FaqItem = ({ question, answer, active, setActive, idx }: Props) => {
   return (
     <div
+    style={{ paddingTop :7, paddingBottom:7}}
       className={`grid ${
         active ? "grid-rows-[45px__1fr]" : "grid-rows-[45px__0fr]"
       } overflow-hidden w-full duration-700 ${
@@ -25,7 +26,9 @@ const FaqItem = ({ question, answer, active, setActive, idx }: Props) => {
             return newArray;
           });
         }}
-        className={`flex  w-full text-black text-sm font-normal justify-between items-center gap-4 px-6 hover:bg-[#efefef] transition-all duration-300 `}
+        
+        className={`flex  w-full text-black text-sm font-medium justify-between items-center gap-4 px-6 hover:bg-[#efefef] transition-all duration-300`}
+        style={{ textAlignLast:"left",textAlign:"left",marginTop:5,marginBottom:5}}
       >
         {question}{" "}
         <svg
@@ -50,10 +53,14 @@ const FaqItem = ({ question, answer, active, setActive, idx }: Props) => {
           active ? "py-4" : "py-0"
         } transition-all overflow-hidden duration-700  flex justify-start items-start`}
       >
-        <p className="text-black font-normal text-sm leading-[1.6]">{answer}</p>
+        <p className="text-black font-medium text-sm leading-[1.6]">{answer}</p>
       </div>
+    
     </div>
+
+    
   );
+  
 };
 
 export default FaqItem;
