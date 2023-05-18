@@ -59,7 +59,7 @@ export default function Home() {
               ></video>
               <button
                 onClick={toggleVideo}
-                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full border border-solid border-white bg-primary ${
+                className={`absolute left-1/2 top-1/2 z-20 grid h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2  place-items-center rounded-full   bg-primary ${
                   !paused
                     ? "opacity-0 transition-all duration-500 group-hover:opacity-100"
                     : ""
@@ -130,7 +130,7 @@ export default function Home() {
                   handler={(value) =>
                     setFormData((prev) => ({ ...prev, type: value }))
                   }
-                  options={["creator", "brand", "agency/manager"]}
+                  options={["creator", "fan"]}
                 />
                 {/* <ToggleSwitch
                   handler={() =>
@@ -145,7 +145,7 @@ export default function Home() {
                 <p className="self-center text-center text-xs font-semibold text-[#aaa]">
                   For support & futher inquiries <br /> email us at{" "}
                   <a
-                    href="mailto:agency@fanse.io"
+                    href="mailto:support@fanse.io"
                     target="blank"
                     className="text-primary underline"
                   >
@@ -182,9 +182,9 @@ export default function Home() {
           </section>
           {width > 1024 ? (
             <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
-              <Image style={{ borderRadius: 15 }} src="/111.svg" width={300} height={400} alt="img1" />
-              <Image  style={{ borderRadius: 15 }} src="/22.svg" width={300} height={400} alt="img2" />
-              <Image  style={{ borderRadius: 15 }} src="/33.svg" width={300} height={400} alt="img3" />
+              <Image style={{ borderRadius: 15 }} src="/1.svg" width={300} height={400} alt="img1" />
+              <Image  style={{ borderRadius: 15 }} src="/2.svg" width={300} height={400} alt="img2" />
+              <Image  style={{ borderRadius: 15 }} src="/3.svg" width={300} height={400} alt="img3" />
             </section>
           ) : (
             <section className="mt-10 w-full border-t border-solid border-paleGray pt-10">
@@ -200,23 +200,22 @@ export default function Home() {
                 }}
               >
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/111.svg" width={477} height={400} alt="img1" />
+                  <Image  style={{ borderRadius: 15 }} src="/1.svg" width={477} height={400} alt="img1" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/22.svg" width={477} height={400} alt="img2" />
+                  <Image  style={{ borderRadius: 15 }} src="/2.svg" width={477} height={400} alt="img2" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/33.svg" width={477} height={400} alt="img3" />
+                  <Image  style={{ borderRadius: 15 }} src="/3.svg" width={477} height={400} alt="img3" />
                 </SplideSlide>
               </Splide>
             </section>
           )}
           <section className="case mt-14 flex w-full flex-col items-center justify-start md:mt-32 md:gap-5">
             <div className="flex flex-col items-center justify-start text-center">
-              <h2 className="text-[28px] font-bold text-black">Case studies</h2>
+              <h2 className="text-[28px] font-bold text-black">Trusted by Top Adult Content Creators</h2>
               <p className="text-base font-normal text-black">
-                View these case studies from the Creator Marketplace for
-                inspiration
+              Trusted and Loved by Thousands of Adult Creators, Artists, and Influencers!
               </p>
             </div>
             <Splide
@@ -249,8 +248,8 @@ export default function Home() {
                 <CaseStudiesBox
                   poster="/media (2).jpg"
                   video="video.mp4"
-                  name="Oops…🤭"
-                  tag="@GorigeCrone"
+                  name="Oops… 🤭"
+                  tag="@LoxDayz"
                 />
               </SplideSlide>
               <SplideSlide>
@@ -258,39 +257,63 @@ export default function Home() {
                   poster="/media (3).jpg"
                   video="video.mp4"
                   name="naughty stuff 🤫"
-                  tag="@LoxDayz"
+                  tag="@GorigeCrone"
                 />
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/media.jpg"
+                  poster="/1.jpg"
                   video="video.mp4"
-                  name="Lani Nani"
-                  tag="@itslaninani"
+                  name="Dear crush, hi. 🤭"
+                  tag="@AmeliaAngel"
                 />
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/media2.JPG"
+                  poster="/2.JPG"
                   video="video.mp4"
-                  name="Come see my big🍒"
-                  tag="@Jessthebeauty"
+                  name="PAWG girlfriend 😉"
+                  tag="@SultryStar"
                 />
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/media (4).jpg"
+                  poster="/3.jpg"
                   video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
+                  name="sexiest outfits 🤤"
+                  tag="@MadisonMagic"
                 />
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/media (3).jpg"
+                  poster="/4.jpg"
                   video="video.mp4"
-                  name="Newton Baby"
-                  tag="@tayandthetwins"
+                  name="Sunday Vibezzz  😂"
+                  tag="@BellaBliss"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/5.jpg"
+                  video="video.mp4"
+                  name="Cum see me 💦"
+                  tag="@LunaDesires"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/6.jpg"
+                  video="video.mp4"
+                  name="Getting started 🔥"
+                  tag="@fairyrutii"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <CaseStudiesBox
+                  poster="/7.jpg"
+                  video="video.mp4"
+                  name="Pleasure*** 🥵"
+                  tag="@Goddessophie"
                 />
               </SplideSlide>
               
