@@ -270,7 +270,7 @@ export default function Home() {
               </SplideSlide>
               <SplideSlide>
                 <CaseStudiesBox
-                  poster="/2.JPG"
+                  poster="/2.jpg"
                   video="video.mp4"
                   name="PAWG girlfriend 😉"
                   tag="@SultryStar"
