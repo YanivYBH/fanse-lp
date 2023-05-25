@@ -181,6 +181,16 @@ export default function Home() {
             </div>
           </section>
           {width > 1024 ? (
+           <div>
+             <Image style={{ borderRadius: 15, marginTop: 60, boxShadow:'0.5px 0px 10px 1px #5c5c5c2b;' }} src="/banner7.svg" width={1000} height={200} alt="img1" />
+            </div>
+
+          ) : (
+            <div>
+             <Image style={{ borderRadius: 15, marginTop: 60, boxShadow:'0.5px 0px 10px 1px #5c5c5c2b;'}} src="/banner-mob5.svg" width={1000} height={200} alt="img1" />
+            </div>
+          )}
+          {width > 1024 ? (
             <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
               <Image style={{ borderRadius: 15 }} src="/1.svg" width={300} height={400} alt="img1" />
               <Image  style={{ borderRadius: 15 }} src="/2.svg" width={300} height={400} alt="img2" />
