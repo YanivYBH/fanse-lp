@@ -182,7 +182,7 @@ export default function Home() {
           </section>
           {width > 1024 ? (
            <div>
-             <Image style={{ borderRadius: 15, marginTop: 60, boxShadow:'0.5px 0px 10px 1px #5c5c5c2b;' }} src="/banner7.svg" width={1000} height={200} alt="img1" />
+             <Image style={{ borderRadius: 15, marginTop: 60, boxShadow:'0.5px 0px 10px 1px #5c5c5c2b;' }} src="/banner7.svg" width={900} height={200} alt="img1" />
             </div>
 
           ) : (
