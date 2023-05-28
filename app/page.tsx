@@ -152,9 +152,10 @@ export default function Home() {
                     agency@fanse.io
                   </a>
                 </p>
-                <button
-                  type="submit"
+                <a
+                  href="https://test.connect.scrile.com/login"                  
                   onSubmit={(e) => e.preventDefault()}
+                  target="blank"
                   className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#0da4db]"
                 >
                   <Image
@@ -164,7 +165,7 @@ export default function Home() {
                     alt="thunder-ico"
                   />{" "}
                   Register Now
-                </button>
+                </a>
                 <p
                   style={{ minWidth: 300 }}
                   className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
