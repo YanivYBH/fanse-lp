@@ -50,10 +50,10 @@ export default function Home() {
           <section style={{ placeContent: "center" }} className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row ">
             <div className="group relative isolate w-full  max-w-[372px] overflow-hidden rounded-[2rem]">
               <video
-                poster="/thumbnail.png"
+                // poster="/thumbnail.png"
                 ref={videoRef}
                 onClick={toggleVideo}
-                src="/video.mp4"
+                src="/video-fanse.mp4"
                 playsInline
                 className="cursor-pointer"
               ></video>
