@@ -153,7 +153,7 @@ export default function Home() {
                   </a>
                 </p>
                 <a
-                  href="https://test.connect.scrile.com/login"                  
+                  href="https://fanse.io/signup"                  
                   onSubmit={(e) => e.preventDefault()}
                   target="blank"
                   className="flex h-[50px] w-full items-center justify-center gap-3 rounded-full border-0 bg-primary px-8 text-base font-bold text-white transition-all duration-100 hover:bg-[#0da4db]"
@@ -171,7 +171,7 @@ export default function Home() {
                   className=" mt-1 flex items-center justify-center gap-1 self-center border-t border-solid border-paleGray pt-1"
                 ></p>
                 <a
-                  href="https://test.connect.scrile.com/login"
+                  href="https://fanse.io/login"
                   target="blank"
                   className="flex h-[40px] w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black"
                 >
@@ -194,7 +194,7 @@ export default function Home() {
           {width > 1024 ? (
             <section className="mt-20 flex items-center justify-center gap-10 border-t border-solid border-paleGray pt-20">
               <Image style={{ borderRadius: 15 }} src="/1.svg" width={300} height={400} alt="img1" />
-              <Image  style={{ borderRadius: 15 }} src="/2.svg" width={300} height={400} alt="img2" />
+              <Image  style={{ borderRadius: 15 }} src="/2.webp" width={300} height={400} alt="img2" />
               <Image  style={{ borderRadius: 15 }} src="/3.svg" width={300} height={400} alt="img3" />
             </section>
           ) : (
@@ -214,7 +214,7 @@ export default function Home() {
                   <Image  style={{ borderRadius: 15 }} src="/1.svg" width={477} height={400} alt="img1" />
                 </SplideSlide>
                 <SplideSlide>
-                  <Image  style={{ borderRadius: 15 }} src="/2.svg" width={477} height={400} alt="img2" />
+                  <Image  style={{ borderRadius: 15 }} src="/2.webp" width={477} height={400} alt="img2" />
                 </SplideSlide>
                 <SplideSlide>
                   <Image  style={{ borderRadius: 15 }} src="/3.svg" width={477} height={400} alt="img3" />
@@ -363,7 +363,7 @@ export default function Home() {
               <h2 style={{ marginBottom: 40 }}  className="text-[34px] font-bold text-black">Join thousands of adult creators on fanse now!</h2>
             </div>
             <a
-                  href="https://test.connect.scrile.com/login"
+                  href="https://fanse.io/signup"
                   target="blank"
                   style={{ maxWidth: 350 , fontSize: 17}}
                   className="flex h-[50px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
