@@ -48,6 +48,7 @@ export default function Home() {
       <div className="relative z-20 flex  w-full flex-col items-center justify-start">
         <div className="flex w-[90%] max-w-[1080px] flex-col items-center justify-start">
           <section style={{ placeContent: "center" }} className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row ">
+            
             <div className="group relative isolate w-full  max-w-[372px] overflow-hidden rounded-[2rem]">
               <video
                 poster="/thumbnail-fanse.png"
@@ -92,6 +93,8 @@ export default function Home() {
                   Join for free & start monetizing your content!
                 </p>
               </div>
+
+             
               <form className="flex w-full flex-col items-start justify-start gap-4 pb-4 ">
                 {/* <InputField
                   value={formData.handle}
@@ -178,6 +181,39 @@ export default function Home() {
                   {" "}
                   already a member?
                 </a>
+                 <p className="self-center text-center text-xs font-semibold text-[#aaa]">
+                Join thousands of adult creators on fanse now!
+                  
+                </p>
+               
+	
+                <div className="flex self-center -space-x-2 px-3 sm:px-6 ">
+               
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="6.jpg" alt="Guy"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/5.jpg" alt="Max"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/3.jpg" alt="Charles"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/4.jpg" alt="Jade"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/ofek.jpeg" alt="Jade"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/1.jpg" alt="Jade"/>
+                  </a>
+                  <a href="#" className="">
+                      <img className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white" src="/2.jpg" alt="Jade"/>
+                  </a>
+                  <a href="https://fanse.io/signup" className="flex items-center justify-center h-10 w-10 font-semibold border rounded-full dark:bg-gray-900 dark:text-gray-100 ring-white">+</a>
+                 
+              </div>
+
               </form>
             </div>
           </section>
@@ -372,15 +408,7 @@ export default function Home() {
                   Join fanse now
                 </a>
               
-                <a
-                  href="/faq"
-                  target="blank"
-                  style={{ marginTop:20, maxWidth: 150 , fontSize: 14 }}
-                  className="flex h-[40px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
-                >
-                  {" "}
-                  FAQ
-                </a>
+               
                 </div>
           </section>
         </div>
