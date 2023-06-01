@@ -51,17 +51,12 @@ export default function Home() {
       <div className= " px-4 py-16  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 justify-start flex flex-col items-center justify-start text-center ">
         <div className="relative max-w-2xl sm:max-w-xl md:max-w-2xl sm:text-center justify-start flex flex-col items-center justify-start text-center ">
           <h1 style={{ lineHeight: 1.3 }}  className=" mb-6 font-sans text-3xl font-bold tracking-tight sm:text-5xl  justify-start  items-center justify-start text-center ">
-          Join the most profitable program for 
-            
-            <span className="relative inline-block px-2">
-              <div className="absolute inset-0 transform -skew-x-12 bg-teal-accent-400" />
-              <span className="relative text-primary">Photographer!</span>
-            </span>
+          Join the most profitable program for {' '}
+          <span className="relative text-primary">Photographers!</span>
+          
           </h1>
           <p className="mb-6 text-base text-gray-700 md:text-lg">
-          Fanse is a leading platform for adult content creators and sex
-          workers that provide a safe and secure space to monetize their
-          fanbase and reach a wider audience.
+          Bring your existing network of adult creators to our platform and earn a lifetime commissions on their earnings!
           </p>
          
          
@@ -92,7 +87,7 @@ export default function Home() {
               {'  '}
               <span className="inline-block text-primary"> fanse</span>
             </h2>
-            <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
+            <p className="text-gray-700 text-base md:text-lg">Fanse is a leading platform for adult content creators and sex workers that provide a safe and secure space to monetize their fanbase and reach a wider audience.</p>
            
         <div style={{ marginTop: 10}} >
           
@@ -102,36 +97,52 @@ export default function Home() {
             <li className="flex items-start">
               <span className="mr-1">
               <Image
+              style={{ marginTop: 1, marginRight:15}}
                     src="/verify-blue.svg"
-                    width={20}
-                    height={20}
+                    width={30}
+                    height={30}
                     alt="thunder-ico"
                   />
               </span>
-              Earth
+              <p>
+              <b>Subscription platform</b> for Adult Creators:
+                Connect with your fans, Sell Content & Take home 80% of earnings!
+              </p>
+              
             </li>
             <li className="flex items-start">
               <span className="mr-1">
               <Image
+              style={{ marginTop: 1, marginRight:10}}
                     src="/verify-blue.svg"
-                    width={20}
-                    height={20}
+                    width={30}
+                    height={30}
                     alt="thunder-ico"
                   />
               </span>
-              Space
+              <p>
+              <b>Automate tools </b> to promote your brand: AI content Generator, Creator’s collaboration and <b>more! </b>
+              </p>
+             
             </li>
             <li className="flex items-start">
-              <span className="mr-1">
+              <div className="mr-1">
               <Image
+              style={{ marginTop: 1, marginRight:10}}
                     src="/verify-blue.svg"
-                    width={20}
-                    height={20}
+                    width={30}
+                    height={30}
                     alt="thunder-ico"
                   />
-              </span>
-              Humans
-            </li>
+                  
+              </div>
+              <p>
+              Built-in features to sell your content:
+              <b> Live streams, PPV, Paid Video Calls,
+              and many more!</b>
+              </p>
+              
+                          </li>
           </ul>
           <a
             href="/"
@@ -144,7 +155,7 @@ export default function Home() {
           <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6">
               About the program 
             </h2>
-            <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
+            <p className="text-gray-700 text-base md:text-lg">The program offers a fantastic way to not only support your own income but also help your creators succeed in their adult content journey.</p>
            
         </div>
           </div>
@@ -728,7 +739,7 @@ to bring creators into Fanse.
             <p  className="text-base font-normal text-black gap-10">
                 what are you waiting for ?
               </p>
-              <h2 style={{ marginBottom: 40 }}  className="text-[34px] font-bold text-black">Join the most profitable program for photographer</h2>
+              <h2 style={{ marginBottom: 40 }}  className="text-[34px] font-bold text-black">Join the most profitable program for photographers</h2>
             </div>
             <a
                   href="https://fanse.io/signup"
