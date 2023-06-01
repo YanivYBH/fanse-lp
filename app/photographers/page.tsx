@@ -152,10 +152,10 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center lg:w-1/2">
           <div className="w-2/5">
-            <img className="object-cover" src="https://kitwind.io/assets/kometa/one-girl-phone.png" alt="" />
+            <img className="object-cover" src="phone2.png" alt="" />
           </div>
           <div className="w-5/12 -ml-16 lg:-ml-32">
-            <img className="object-cover" src="https://kitwind.io/assets/kometa/two-girls-phone.png" alt="" />
+            <img className="object-cover" src="/phone1.png" alt="" />
           </div>
         </div>
       </div>
@@ -168,9 +168,9 @@ export default function Home() {
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
            
-            <span className="relative">  </span>
-          </span>
-          win-win for your clients
+            <span className="relative text-primary"> win-win </span>
+          </span>{' '}
+           for your clients
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
         Our program is a win-win situation where your creators can
@@ -297,8 +297,8 @@ platforms and marketing assistance).</p>
           </div>
           <div>
             <a
-              href="/"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+              href="https://fanse.io/signup"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-black rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
             >
               Let's start
             </a>
@@ -463,7 +463,7 @@ referred creators boost their online brand.</p>
             </svg>
             <span className="relative">Quick</span>
           </span>{' '}
-          and easy onboarding procces
+          and easy onboarding
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
