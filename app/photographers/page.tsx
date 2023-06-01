@@ -50,12 +50,12 @@ export default function Home() {
       
       <div className= " px-4 py-16  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 justify-start flex flex-col items-center justify-start text-center ">
         <div className="relative max-w-2xl sm:max-w-xl md:max-w-2xl sm:text-center justify-start flex flex-col items-center justify-start text-center ">
-          <h1 style={{ lineHeight: 1.3 }}  className=" mb-6 font-sans text-4xl font-bold tracking-tight sm:text-5xl  justify-start  items-center justify-start text-center ">
+          <h1 style={{ lineHeight: 1.3 }}  className=" mb-6 font-sans text-3xl font-bold tracking-tight sm:text-5xl  justify-start  items-center justify-start text-center ">
           Join the most profitable program for 
-            {' '}
+            
             <span className="relative inline-block px-2">
               <div className="absolute inset-0 transform -skew-x-12 bg-teal-accent-400" />
-              <span className="relative text-primary">Photographer !</span>
+              <span className="relative text-primary">Photographer!</span>
             </span>
           </h1>
           <p className="mb-6 text-base text-gray-700 md:text-lg">
@@ -82,20 +82,94 @@ export default function Home() {
           </a>
         </div>
       </div>
-      
-    
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            benefits
-          </p>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border-t border-solid border-paleGray ">
+      <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
+        <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+          <div className="max-w-xl mb-6">
+          
+            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6">
+              Meet 
+              {'  '}
+              <span className="inline-block text-primary"> fanse</span>
+            </h2>
+            <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
+           
+        <div style={{ marginTop: 10}} >
+          
+          
+          
+          <ul className="mb-4 -ml-1 space-y-2">
+            <li className="flex items-start">
+              <span className="mr-1">
+              <Image
+                    src="/verify-blue.svg"
+                    width={20}
+                    height={20}
+                    alt="thunder-ico"
+                  />
+              </span>
+              Earth
+            </li>
+            <li className="flex items-start">
+              <span className="mr-1">
+              <Image
+                    src="/verify-blue.svg"
+                    width={20}
+                    height={20}
+                    alt="thunder-ico"
+                  />
+              </span>
+              Space
+            </li>
+            <li className="flex items-start">
+              <span className="mr-1">
+              <Image
+                    src="/verify-blue.svg"
+                    width={20}
+                    height={20}
+                    alt="thunder-ico"
+                  />
+              </span>
+              Humans
+            </li>
+          </ul>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-primary"
+          >
+           
+          </a>
+
+          <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6">
+              About the program 
+            </h2>
+            <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
+           
         </div>
+          </div>
+         
+        </div>
+        <div className="flex items-center justify-center lg:w-1/2">
+          <div className="w-2/5">
+            <img className="object-cover" src="https://kitwind.io/assets/kometa/one-girl-phone.png" alt="" />
+          </div>
+          <div className="w-5/12 -ml-16 lg:-ml-32">
+            <img className="object-cover" src="https://kitwind.io/assets/kometa/two-girls-phone.png" alt="" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div className=" py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border-t border-solid border-paleGray ">
+     
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
            
             <span className="relative">  </span>
-          </span>{' '}
+          </span>
           win-win for your clients
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
@@ -112,7 +186,7 @@ export default function Home() {
                 <p className="text-sm text-primary font-bold tracking-wider uppercase">
                   Benefits for
                 </p>
-                <p className="text-4xl font-extrabold">Photographers</p>
+                <p className="text-3xl font-extrabold">Photographers</p>
               </div>
               
             </div>
@@ -238,7 +312,7 @@ platforms and marketing assistance).</p>
                 <p className="text-sm text-primary font-bold tracking-wider uppercase">
                   Benefits for
                 </p>
-                <p className="text-4xl text font-extrabold">Creators</p>
+                <p className="text-3xl text font-extrabold">Creators</p>
               </div>
               <Image
                     src="/verify-blue.svg"
@@ -358,12 +432,12 @@ referred creators boost their online brand.</p>
         </div>
       </div>
     </div>
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className=" py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
          
         </div>
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 style={{ lineHeight: 1.3 }} className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -516,7 +590,7 @@ to bring creators into Fanse.
 
     
         
-          <section className="case mt-14 flex w-full flex-col items-center justify-start md:mt-32 md:gap-5">
+          <section className="case mt-14 flex w-full flex-col items-center justify-start md:mt-32 md:gap-5 ">
             <div className="flex flex-col items-center justify-start text-center">
               <h2 className="text-[28px] font-bold text-black">Trusted by Top Adult Content Creators</h2>
               <p className="text-base font-normal text-black">
