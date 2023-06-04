@@ -702,7 +702,7 @@ referred creators boost their online brand.</p>
                   className="flex h-[50px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
                 >
                   {" "}
-                  Join fanse now
+                  Schedule a meeting
                 </a>
               
                
