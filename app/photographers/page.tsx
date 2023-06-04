@@ -61,7 +61,7 @@ export default function Home() {
          
          
           <a
-            href="/"
+            href="#start"
             aria-label="Scroll down"
             className="flex items-center justify-center w-10 h-10 mx-auto  duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
           >
@@ -308,7 +308,7 @@ platforms and marketing assistance).</p>
           </div>
           <div>
             <a
-              href="https://fanse.io/signup"
+              href="https://calendly.com/fanse/meeting"
               className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-black rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
             >
               Let's start
@@ -443,12 +443,12 @@ referred creators boost their online brand.</p>
         </div>
       </div>
     </div>
-    <div className=" py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div id="start" className=" py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
          
         </div>
-        <h2 style={{ lineHeight: 1.3 }} className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 style={{ lineHeight: 1.3 }} className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto text-center">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -472,132 +472,86 @@ referred creators boost their online brand.</p>
                 height="24"
               />
             </svg>
-            <span className="relative">Quick</span>
-          </span>{' '}
-          and easy onboarding
+            <span className="relative ">How does it work ?</span>
+          </span>
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+        <p className="text-base text-center text-gray-700 md:text-lg">
+          Join fanse program in just few quick & easy steps! 
         </p>
       </div>
-      <div className="grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
-        <div>
-          <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 1</p>
-            <svg
-              className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              viewBox="0 0 24 24"
-            >
-              <line
-                fill="none"
-                strokeMiterlimit="10"
-                x1="2"
-                y1="12"
-                x2="22"
-                y2="12"
-              />
-              <polyline
-                fill="none"
-                strokeMiterlimit="10"
-                points="15,5 22,12 15,19 "
-              />
-            </svg>
+      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:py-20">
+      <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
+        <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
+          <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-lg font-bold leading-5">Step 1</p>
+            <p className="flex items-center justify-center w-8 h-8 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
+              1
+            </p>
           </div>
-          <p className="text-gray-600">
-          Create your account here: Fanse.io and notify us.
+          <p className="text-sm text-gray-900">
+          Schedule a 15min meeting to get access 
+
+
+          </p>
+          <a
+          href="https://calendly.com/fanse/meeting"
+          style={{ marginTop: 20 }}
+          className="inline-flex items-center justify-center w-full h-12 px-6 font-sm text-sm tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+           Schedule now
+        </a>
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-lg font-bold leading-5">Step 2</p>
+            <p className="flex items-center justify-center w-8 h-8 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
+              2
+            </p>
+          </div>
+          <p className="text-sm text-gray-900">
+          We make your Fanse account as a 'Talent rep' and you're now able to bring creators into Fanse.
+
+
           </p>
         </div>
-        <div>
-          <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 2</p>
-            <svg
-              className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              viewBox="0 0 24 24"
-            >
-              <line
-                fill="none"
-                strokeMiterlimit="10"
-                x1="2"
-                y1="12"
-                x2="22"
-                y2="12"
-              />
-              <polyline
-                fill="none"
-                strokeMiterlimit="10"
-                points="15,5 22,12 15,19 "
-              />
-            </svg>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-lg font-bold leading-5">Step 3</p>
+            <p className="flex items-center justify-center w-8 h-8 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
+              3
+            </p>
           </div>
-          <p className="text-gray-600">
-          We make your Fanse account as a 'Talent rep' and you're now able
-to bring creators into Fanse.
-          </p>
-        </div>
-        <div>
-          <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 3</p>
-            <svg
-              className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              viewBox="0 0 24 24"
-            >
-              <line
-                fill="none"
-                strokeMiterlimit="10"
-                x1="2"
-                y1="12"
-                x2="22"
-                y2="12"
-              />
-              <polyline
-                fill="none"
-                strokeMiterlimit="10"
-                points="15,5 22,12 15,19 "
-              />
-            </svg>
-          </div>
-          <p className="text-gray-600">
+          <p className="text-sm text-gray-900">
           Contact your models and let them know about the new opportunity.
+
+
           </p>
         </div>
-        <div>
-          <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Make money</p>
-            <svg
-              className="w-8 text-gray-600"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <polyline
-                fill="none"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeMiterlimit="10"
-                points="6,12 10,16 18,8"
-              />
-            </svg>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-lg font-bold leading-5">Make money</p>
+            <p className="flex items-center justify-center w-8 h-8 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
+            💰
+            </p>
           </div>
-          <p className="text-gray-600">
+          <p className="text-sm text-gray-900">
           Track your earnings & your creators through 'Creators By Talent Rep'
-          
           </p>
         </div>
       </div>
-    </div>   
+      <div className="text-center">
+        <a
+          href="https://calendly.com/fanse/meeting"
+          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+          Let's meet
+        </a>
+      </div>
+    </div>
+      </div>   
 
     
         
@@ -742,7 +696,7 @@ to bring creators into Fanse.
               <h2 style={{ marginBottom: 40 }}  className="text-[34px] font-bold text-black">Join the most profitable program for photographers</h2>
             </div>
             <a
-                  href="https://fanse.io/signup"
+                  href="https://calendly.com/fanse/meeting"
                   target="blank"
                   style={{ maxWidth: 350 , fontSize: 17}}
                   className="flex h-[50px]  w-full items-center justify-center gap-3 rounded-full rounded-full border border-black bg-black p-1.5 px-8 text-base text-sm font-bold text-white transition-all transition-all duration-100 hover:bg-white hover:text-black text-[17px]"
