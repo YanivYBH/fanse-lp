@@ -17,6 +17,8 @@ export default function Footer() {
         <div className="flex items-center sm:flex-row flex-row justify-center gap-3 sm:gap-2" >
         <p className="sm:inline-block hidden">|</p>
         <a href="/photographers">Photographers Program</a>
+        <p className="sm:inline-block hidden">|</p>
+        <a href="/start">How To Start</a>
         <p className="sm:inline-block">|</p>
         <a href="#">Privacy Policy</a>
         <p className="sm:inline-block ">|</p>
