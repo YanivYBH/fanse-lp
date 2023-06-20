@@ -16,13 +16,16 @@ export default function Footer() {
         <a href="#">Fanse by Creators for Creators Platform</a>
         <div className="flex items-center sm:flex-row flex-row justify-center gap-3 sm:gap-2" >
         <p className="sm:inline-block hidden">|</p>
-        <a href="/photographers">Photographers Program</a>
-        <p className="sm:inline-block hidden">|</p>
-        <a href="/start">How To Start</a>
+        <a  className=" text-gray-600" href="/photographers">Photographers Program</a>
         <p className="sm:inline-block">|</p>
-        <a href="#">Privacy Policy</a>
+        <a className=" text-gray-600" href="/start">How To Start</a>
+       
+    </div>
+    <div className="flex items-center sm:flex-row flex-row justify-center gap-3 sm:gap-2" >
+        <p className="sm:inline-block hidden">|</p>
+        <a  className=" text-gray-600" href="#">Privacy Policy</a>
         <p className="sm:inline-block ">|</p>
-        <a href="/faq">FAQs</a>
+        <a  className=" text-gray-600" href="/faq">FAQs</a>
     </div>
        
       </div>
